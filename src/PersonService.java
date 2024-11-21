@@ -17,6 +17,5 @@ public class PersonService {
     }
     public void addP(Person p){
         persons.add(p);
-
     }
 }
