@@ -4,6 +4,7 @@ public class Main {
         Person przemek = new Person("Przemyslaw Naja",5);
         Person bartek = new Person("Bartosz Pytka",5);
         PersonService osoby = new PersonService(filip,przemek,bartek);
+       osoby.addP(new Person("jakis len kompletny",2));
         osoby.displayAll();
     }
 }
